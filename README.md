@@ -1,4 +1,4 @@
-Meet Limitless – responsive web application kit
+Meet Usuful Limitless – responsive web application kit
 
 Limitless – a new professional admin template, based on Bootstrap framework. Limitless is a powerful and super flexible tool, which suits best for any kind of web application. Includes 1 main and 3 alternative layouts, 1000+ commented HTML pages, 1000+ components with different features and options, 100+ plugins and extensions etc. Limitless includes Starter kit – a set of blank pages, that will make your developer’s life much easier. Limitless template is fully responsive, which means that it looks perfect on mobiles and tablets.
 
