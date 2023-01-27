@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+	<!-- Global stylesheets -->
+	<link href="../../../assets/fonts/inter/inter.css" rel="stylesheet" type="text/css">
+	<link href="../../../assets/icons/phosphor/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="../../../assets/icons/fontawesome/all.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/ltr/all.min.css" id="stylesheet" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script src="../../../assets/demo/demo_configurator.js"></script>
+	<script src="../../../assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script src="../../../assets/js/jquery/jquery.min.js"></script>
+	<script src="../../../assets/js/vendor/forms/wizards/steps.min.js"></script>
+	<script src="../../../assets/js/vendor/forms/validation/validate.min.js"></script>
+	<script src="../../../assets/js/vendor/ui/moment/moment.min.js"></script>
+	<script src="../../../assets/js/vendor/pickers/daterangepicker.js"></script>
+	<script src="../../../assets/js/vendor/pickers/datepicker.min.js"></script>
+
+	<script src="assets/js/app.js"></script>	
+	<script src="../../../assets/demo/pages/form_wizard.js"></script>
+	<script src="../../../assets/demo/pages/picker_date.js"></script>
+
+	<!-- /theme JS files --> 
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+	<!-- Main navbar -->
+	<div class="navbar navbar-dark navbar-expand-lg navbar-static border-bottom border-bottom-white border-opacity-10">
+		<div class="container-fluid">
+			<div class="d-flex d-lg-none me-2">
+				<button type="button" class="navbar-toggler sidebar-mobile-main-toggle rounded-pill">
+					<i class="ph-list"></i>
+				</button>
+			</div>
+
+			<div class="navbar-brand flex-1 flex-lg-0">
+				<a href="index.html" class="d-inline-flex align-items-center">
+					<img src="../../../assets/images/logo.svg" alt="">
+				</a>
+			</div>
+			<ul class="nav order-2 order-lg-1 me-lg-auto">
+				<li class="nav-item nav-item-dropdown-lg dropdown">
+						<button type="button" class="btn btn-outline-yellow btn-icon order-1 order-lg-2">
+							<span class="d-none d-lg-inline-block ms-2 me-1">Create Booking</span>
+						</button>
+				</li>
+			</ul>
+
+			
+			<ul class="nav flex-row">
+				<li class="nav-item d-lg-none">
+					<a href="#navbar_search" class="navbar-nav-link navbar-nav-link-icon rounded-pill" data-bs-toggle="collapse">
+						<i class="ph-magnifying-glass"></i>
+					</a>
+				</li>
+
+
+			</ul>
+
+			<div class="navbar-collapse flex-lg-1 order-2 order-lg-1 collapse" id="navbar_search">
+				<div class="navbar-search flex-fill position-relative mt-2 mt-lg-0 mx-lg-3">
+					<div class="form-control-feedback form-control-feedback-start flex-grow-1" data-color-theme="dark">
+						<input type="text" class="form-control bg-transparent rounded-pill" placeholder="Search" data-bs-toggle="dropdown">
+						<div class="form-control-feedback-icon">
+							<i class="ph-magnifying-glass"></i>
+						</div>
+						<div class="dropdown-menu w-100" data-color-theme="light">
+							<button type="button" class="dropdown-item">
+								<div class="text-center w-32px me-3">
+									<i class="ph-magnifying-glass"></i>
+								</div>
+								<span>Search <span class="fw-bold">"in"</span> everywhere</span>
+							</button>
+
+							<div class="dropdown-divider"></div>
+
+							<div class="dropdown-menu-scrollable-lg">
+								<div class="dropdown-header">
+									Contacts
+									<a href="#" class="float-end">
+										See all
+										<i class="ph-arrow-circle-right ms-1"></i>
+									</a>
+								</div>
+
+								<div class="dropdown-item cursor-pointer">
+									<div class="me-3">
+										<img src="../../../assets/images/demo/users/face3.jpg" class="w-32px h-32px rounded-pill" alt="">
+									</div>
+
+									<div class="d-flex flex-column flex-grow-1">
+										<div class="fw-semibold">Christ<mark>in</mark>e Johnson</div>
+										<span class="fs-sm text-muted">c.johnson@awesomecorp.com</span>
+									</div>
+
+									<div class="d-inline-flex">
+										<a href="#" class="text-body ms-2">
+											<i class="ph-user-circle"></i>
+										</a>
+									</div>
+								</div>
+
+								<div class="dropdown-item cursor-pointer">
+									<div class="me-3">
+										<img src="../../../assets/images/demo/users/face24.jpg" class="w-32px h-32px rounded-pill" alt="">
+									</div>
+
+									<div class="d-flex flex-column flex-grow-1">
+										<div class="fw-semibold">Cl<mark>in</mark>ton Sparks</div>
+										<span class="fs-sm text-muted">c.sparks@awesomecorp.com</span>
+									</div>
+
+									<div class="d-inline-flex">
+										<a href="#" class="text-body ms-2">
+											<i class="ph-user-circle"></i>
+										</a>
+									</div>
+								</div>
+
+								<div class="dropdown-divider"></div>
+
+								<div class="dropdown-header">
+									Clients
+									<a href="#" class="float-end">
+										See all
+										<i class="ph-arrow-circle-right ms-1"></i>
+									</a>
+								</div>
+
+								<div class="dropdown-item cursor-pointer">
+									<div class="me-3">
+										<img src="../../../assets/images/brands/adobe.svg" class="w-32px h-32px rounded-pill" alt="">
+									</div>
+
+									<div class="d-flex flex-column flex-grow-1">
+										<div class="fw-semibold">Adobe <mark>In</mark>c.</div>
+										<span class="fs-sm text-muted">Enterprise license</span>
+									</div>
+
+									<div class="d-inline-flex">
+										<a href="#" class="text-body ms-2">
+											<i class="ph-briefcase"></i>
+										</a>
+									</div>
+								</div>
+
+								<div class="dropdown-item cursor-pointer">
+									<div class="me-3">
+										<img src="../../../assets/images/brands/holiday-inn.svg" class="w-32px h-32px rounded-pill" alt="">
+									</div>
+
+									<div class="d-flex flex-column flex-grow-1">
+										<div class="fw-semibold">Holiday-<mark>In</mark>n</div>
+										<span class="fs-sm text-muted">On-premise license</span>
+									</div>
+
+									<div class="d-inline-flex">
+										<a href="#" class="text-body ms-2">
+											<i class="ph-briefcase"></i>
+										</a>
+									</div>
+								</div>
+
+								<div class="dropdown-item cursor-pointer">
+									<div class="me-3">
+										<img src="../../../assets/images/brands/ing.svg" class="w-32px h-32px rounded-pill" alt="">
+									</div>
+
+									<div class="d-flex flex-column flex-grow-1">
+										<div class="fw-semibold"><mark>IN</mark>G Group</div>
+										<span class="fs-sm text-muted">Perpetual license</span>
+									</div>
+
+									<div class="d-inline-flex">
+										<a href="#" class="text-body ms-2">
+											<i class="ph-briefcase"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<a href="#" class="navbar-nav-link align-items-center justify-content-center w-40px h-32px rounded-pill position-absolute end-0 top-50 translate-middle-y p-0 me-1" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+						<i class="ph-faders-horizontal"></i>
+					</a>
+
+					<div class="dropdown-menu w-100 p-3">
+						<div class="d-flex align-items-center mb-3">
+							<h6 class="mb-0">Search options</h6>
+							<a href="#" class="text-body rounded-pill ms-auto">
+								<i class="ph-clock-counter-clockwise"></i>
+							</a>
+						</div>
+
+						<div class="mb-3">
+							<label class="d-block form-label">Category</label>
+							<label class="form-check form-check-inline">
+								<input type="checkbox" class="form-check-input" checked>
+								<span class="form-check-label">Invoices</span>
+							</label>
+							<label class="form-check form-check-inline">
+								<input type="checkbox" class="form-check-input">
+								<span class="form-check-label">Files</span>
+							</label>
+							<label class="form-check form-check-inline">
+								<input type="checkbox" class="form-check-input">
+								<span class="form-check-label">Users</span>
+							</label>
+						</div>
+
+						<div class="mb-3">
+							<label class="form-label">Addition</label>
+							<div class="input-group">
+								<select class="form-select w-auto flex-grow-0">
+									<option value="1" selected>has</option>
+									<option value="2">has not</option>
+								</select>
+								<input type="text" class="form-control" placeholder="Enter the word(s)">
+							</div>
+						</div>
+
+						<div class="mb-3">
+							<label class="form-label">Status</label>
+							<div class="input-group">
+								<select class="form-select w-auto flex-grow-0">
+									<option value="1" selected>is</option>
+									<option value="2">is not</option>
+								</select>
+								<select class="form-select">
+									<option value="1" selected>Active</option>
+									<option value="2">Inactive</option>
+									<option value="3">New</option>
+									<option value="4">Expired</option>
+									<option value="5">Pending</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="d-flex">
+							<button type="button" class="btn btn-light">Reset</button>
+
+							<div class="ms-auto">
+								<button type="button" class="btn btn-light">Cancel</button>
+								<button type="button" class="btn btn-primary ms-2">Apply</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<ul class="nav flex-row justify-content-end order-1 order-lg-2">
+				<li class="nav-item ms-lg-2">
+					<a href="#" class="navbar-nav-link navbar-nav-link-icon rounded-pill" data-bs-toggle="offcanvas" data-bs-target="#notifications">
+						<i class="ph-bell"></i>
+						<span class="badge bg-yellow text-black position-absolute top-0 end-0 translate-middle-top zindex-1 rounded-pill mt-1 me-1">2</span>
+					</a>
+				</li>
+
+				
+				<li class="nav-item nav-item-dropdown-lg dropdown ms-lg-2">
+					<a href="#" class="navbar-nav-link align-items-center rounded-pill p-1" data-bs-toggle="dropdown">
+						<div class="status-indicator-container">
+							<img src="../../../assets/images/demo/users/face11.jpg" class="w-32px h-32px rounded-pill" alt="">
+							<span class="status-indicator bg-success"></span>
+						</div>
+						<span class="d-none d-lg-inline-block mx-lg-2">Balwinder Singh</span>
+					</a>
+
+					<div class="dropdown-menu dropdown-menu-end">
+						<a href="#" class="dropdown-item">
+							<i class="ph-user-circle me-2"></i>
+							My profile
+						</a>
+						
+						<div class="dropdown-divider"></div>
+						<a href="#" class="dropdown-item">
+							<i class="ph-gear me-2"></i>
+							Account settings
+						</a>
+						<a href="#" class="dropdown-item">
+							<i class="ph-sign-out me-2"></i>
+							Logout
+						</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- /main navbar -->
+
+
+	<!-- Page content -->
+	<div class="page-content">
+
+		<!-- Main sidebar -->
+		<div class="sidebar sidebar-dark sidebar-main sidebar-expand-lg">
+
+			<!-- Sidebar content -->
+			<div class="sidebar-content">
+
+				<!-- Main navigation -->
+				<div class="sidebar-section">
+					<ul class="nav nav-sidebar" data-nav-type="accordion">
+
+						<li class="nav-item">
+							<a href="index.html" class="nav-link">
+								<i class=" "></i>
+								<span>
+									Dashboard
+								</span>
+							</a>
+						</li>	
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link">
+								<i class="ph-calendar-check"></i>
+								<span>Calendar</span>
+							</a>
+						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link">
+								<i class="ph-users"></i>
+								<span>Membership</span>
+							</a>
+						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link active">
+								<i class="ph-calendar-plus"></i>
+								<span>Bookings</span>
+							</a>
+						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link">
+								<i class="ph-sun"></i>
+								<span>Hukamnama</span>
+							</a>
+						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link">
+								<i class="ph-phone"></i>
+								<span>Contacts</span>
+							</a>
+						</li>
+						
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link">
+								<i class="ph-chart-line"></i>
+								<span>Statistics</span>
+							</a>
+						</li>
+						<!-- /page kits -->
+
+					</ul>
+				</div>
+				<!-- /main navigation -->
+
+			</div>
+			<!-- /sidebar content -->
+			
+		</div>
+		<!-- /main sidebar -->
+
+
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+			<!-- Inner content -->
+			<div class="content-inner">
+
+				<!-- Page header -->
+				<div class="page-header page-header-light shadow">
+					<div class="page-header-content d-lg-flex">
+						<div class="d-flex">
+							<h4 class="page-title mb-0">
+								Home - <span class="fw-normal">Dashboard</span>
+							</h4>
+
+							<a href="#page_header" class="btn btn-light align-self-center collapsed d-lg-none border-transparent rounded-pill p-0 ms-auto" data-bs-toggle="collapse">
+								<i class="ph-caret-down collapsible-indicator ph-sm m-1"></i>
+							</a>
+						</div>
+
+						<div class="collapse d-lg-block my-lg-auto ms-lg-auto" id="page_header">
+							<div class="d-sm-flex align-items-center mb-3 mb-lg-0 ms-lg-3">
+								<div class="dropdown w-100 w-sm-auto">
+									<a href="#" class="d-flex align-items-center text-body lh-1  py-sm-2" data-bs-toggle="dropdown" data-bs-display="static">
+										<img src="../../../assets/images/brands/tesla.svg" class="w-32px h-32px me-2" alt="">
+										<div class="me-auto me-lg-1">
+											<div class="fs-sm text-muted mb-1">Customer</div>
+											<div class="fw-semibold">Ramgarhia Sikh Gurdwara Slough</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="page-header-content d-lg-flex border-top">
+						<div class="d-flex">
+							<div class="breadcrumb py-2">
+								<a href="index.html" class="breadcrumb-item"><i class="ph-house"></i></a>
+								<a href="#" class="breadcrumb-item">Home</a>
+								<span class="breadcrumb-item active">Dashboard</span>
+							</div>
+
+							<a href="#breadcrumb_elements" class="btn btn-light align-self-center collapsed d-lg-none border-transparent rounded-pill p-0 ms-auto" data-bs-toggle="collapse">
+								<i class="ph-caret-down collapsible-indicator ph-sm m-1"></i>
+							</a>
+						</div>
+
+						<div class="collapse d-lg-block ms-lg-auto" id="breadcrumb_elements">
+							<div class="d-lg-flex mb-2 mb-lg-0">
+								<a href="#" class="d-flex align-items-center text-body py-2">
+									<i class="ph-lifebuoy me-2"></i>
+									Support
+								</a>
+
+								<div class="dropdown ms-lg-3">
+									<a href="#" class="d-flex align-items-center text-body dropdown-toggle py-2" data-bs-toggle="dropdown">
+										<i class="ph-gear me-2"></i>
+										<span class="flex-1">Settings</span>
+									</a>
+
+									<div class="dropdown-menu dropdown-menu-end w-100 w-lg-auto">
+										<a href="#" class="dropdown-item">
+											<i class="ph-shield-warning me-2"></i>
+											Account security
+										</a>
+										<a href="#" class="dropdown-item">
+											<i class="ph-chart-bar me-2"></i>
+											Analytics
+										</a>
+										<a href="#" class="dropdown-item">
+											<i class="ph-lock-key me-2"></i>
+											Privacy
+										</a>
+										<div class="dropdown-divider"></div>
+										<a href="#" class="dropdown-item">
+											<i class="ph-gear me-2"></i>
+											All settings
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /page header -->
+
+
+
+				<!-- Content area -->
+				<div class="content">
+
+		            <!-- Wizard with validation -->
+		            <div class="card">
+						<div class="card-header">
+							<h6 class="mb-0">Booking Ref: RSG101</h6>
+						</div>
+
+	                	<form class="wizard-form steps-validation" action="#">
+							<h6>Personal data</h6>
+							<fieldset>
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="mb-3">
+											<label class="form-label">Select Booking Date:</label>
+											<div class="input-group">
+												<span class="input-group-text"><i class="ph-calendar"></i></span>
+												<input type="text" class="form-control daterange-single" value="03/18/2020">
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="mb-3">
+											<label class="form-label">Select Venue:</label>
+											<select name="position" class="form-select">
+												<optgroup label="RSG Darbar Hall">
+													<option value="1" selected>Guru Nanak Darbar</option>
+													<option value="2">Guru Amar Daas Darbar</option>
+													<option value="3">Guru Angad Darbar</option>
+												</optgroup>
+												<optgroup label="JSRA">
+													<option value="5">Community Centre</option>
+													<option value="5">Dojo</option>
+												</optgroup>
+											</select>
+										</div>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="mb-3">
+											<label class="form-label">Booking by: <span class="text-danger">*</span></label>
+											<input type="text" name="name" class="form-control required" placeholder="John Doe">
+										</div>
+									</div>	
+									<div class="col-lg-6">
+										<div class="mb-3">
+											<label class="form-label">Booking on behalf of:</label>
+											<input type="text" name="name" class="form-control" placeholder="John Doe">
+										</div>
+									</div>	
+								</div>
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="mb-3">
+											<label class="form-label">Email address: <span class="text-danger">*</span></label>
+											<input type="email" name="email" class="form-control required" placeholder="your@email.com">
+										</div>
+									</div>	
+									<div class="col-lg-4">
+										<div class="mb-3">
+											<label class="form-label">Phone:<span class="text-danger">*</span></label>
+											<input type="text" name="tel" class="form-control required" placeholder="+44-99999-99999">
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="mb-3">
+											<label class="form-label">Date of Birth:<span class="text-danger">*</span></label>
+											<div class="input-group">
+												<span class="input-group-text">
+													<i class="ph-calendar"></i>
+												</span>
+													<input type="text" class="form-control required datepicker-date-max" placeholder="">
+											</div>
+										</div>
+									</div>
+								</div>
+							</fieldset>
+
+							<h6>Booking Information</h6>
+							<fieldset>
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="mb-3">
+											<label class="form-label">Booking Type: <span class="text-danger">*</span></label>
+											<select name="university-country" class="form-select" placeholder="Please select from dropdown">
+												<optgroup label="Wedding">
+													<option value="1">Kurmai</option>
+													<option value="2">Anand Karaj</option>
+													<option value="3">Civil Marriage</option>
+												</optgroup>
+												<optgroup label="Prayers">
+													<option value="5">Sukhmani Sahib</option>
+													<option value="5">Akhand Paath</option>
+													<option value="5">Sehaj Paath</option>
+													<option value="5">Ardaas</option>
+												</optgroup>
+												<optgroup label="Langar">
+													<option value="5">Morning Langar</option>
+													<option value="5">Lunch</option>
+													<option value="5">Evening Langar</option>
+												</optgroup>
+		                                    </select>
+										</div>
+									</div>
+
+									<div class="col-lg-4">
+										<div class="mb-4">
+											<label class="form-label">Number of Guests:</label>
+			                                <input type="number" name="education-language" class="form-control">
+	                                    </div>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="mb-3">
+											<label class="form-label">Degree level: <span class="text-danger">*</span></label>
+			                                <input type="text" name="degree-level" placeholder="Bachelor, Master etc." class="form-control required">
+		                                </div>
+
+										<div class="mb-3">
+											<label class="form-label">Specialization:</label>
+			                                <input type="text" name="specialization" placeholder="Design, Development etc." class="form-control">
+		                                </div>
+									</div>
+
+									<div class="col-lg-6">
+										<div class="row">
+											<div class="col-lg-6">
+												<label class="form-label">From:</label>
+												<div class="row">
+													<div class="col-lg-6">
+														<div class="mb-3">
+						                                    <select name="education-from-month" class="form-select">
+						                                        <option value="January" selected>January</option> 
+						                                        <option value="...">...</option> 
+						                                        <option value="December">December</option> 
+						                                    </select>
+					                                    </div>
+													</div>
+
+													<div class="col-lg-6">
+														<div class="mb-3">
+						                                    <select name="education-from-year" class="form-select">
+						                                        <option value="1995" selected>1995</option> 
+						                                        <option value="...">...</option> 
+						                                        <option value="1980">1980</option> 
+						                                    </select>
+					                                    </div>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-lg-6">
+												<label class="form-label">To:</label>
+												<div class="row">
+													<div class="col-lg-6">
+														<div class="mb-3">
+						                                    <select name="education-to-month" class="form-select">
+						                                        <option value="January" selected>January</option> 
+						                                        <option value="...">...</option> 
+						                                        <option value="December">December</option> 
+						                                    </select>
+					                                    </div>
+													</div>
+
+													<div class="col-lg-6">
+														<div class="mb-3">
+						                                    <select name="education-to-year" class="form-select">
+						                                        <option value="1995" selected>1995</option> 
+						                                        <option value="...">...</option> 
+						                                        <option value="1980">1980</option> 
+						                                    </select>
+					                                    </div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="mb-3">
+											<label class="form-label">Language of education:</label>
+			                                <input type="text" name="education-language" placeholder="English, German etc." class="form-control">
+		                                </div>
+									</div>
+								</div>
+							</fieldset>
+
+							<h6>Langar / Guest Information</h6>
+							<fieldset>
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="mb-3">
+											<label class="form-label">Company: <span class="text-danger">*</span></label>
+			                                <input type="text" name="experience-company" placeholder="Company name" class="form-control required">
+		                                </div>
+							
+
+										<div class="mb-3">
+											<label class="form-label">Position: <span class="text-danger">*</span></label>
+			                                <input type="text" name="experience-position" placeholder="Company name" class="form-control required">
+		                                </div>
+
+										<div class="row">
+											<div class="col-lg-6">
+												<label class="form-label">From:</label>
+												<div class="row">
+													<div class="col-lg-6">
+														<div class="mb-3">
+						                                    <select name="education-from-month" class="form-select">
+						                                        <option value="January" selected>January</option> 
+						                                        <option value="...">...</option> 
+						                                        <option value="December">December</option> 
+						                                    </select>
+					                                    </div>
+													</div>
+
+													<div class="col-lg-6">
+														<div class="mb-3">
+						                                    <select name="education-from-year" class="form-select">
+						                                        <option value="1995" selected>1995</option> 
+						                                        <option value="...">...</option> 
+						                                        <option value="1980">1980</option> 
+						                                    </select>
+					                                    </div>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-lg-6">
+												<label class="form-label">To:</label>
+												<div class="row">
+													<div class="col-lg-6">
+														<div class="mb-3">
+						                                    <select name="education-to-month" class="form-select">
+						                                        <option value="January" selected>January</option> 
+						                                        <option value="...">...</option> 
+						                                        <option value="December">December</option> 
+						                                    </select>
+					                                    </div>
+													</div>
+
+													<div class="col-lg-6">
+														<div class="mb-3">
+						                                    <select name="education-to-year" class="form-select">
+						                                        <option value="1995" selected>1995</option> 
+						                                        <option value="...">...</option> 
+						                                        <option value="1980">1980</option> 
+						                                    </select>
+					                                    </div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-lg-6">
+		                                <div class="mb-3">
+											<label class="form-label">Brief description:</label>
+		                                    <textarea name="experience-description" rows="4" cols="4" placeholder="Tasks and responsibilities" class="form-control"></textarea>
+		                                </div>
+
+										<div class="mb-3">
+											<label class="form-label">Recommendations:</label>
+											<input type="file" class="form-control">
+		                                    <span class="form-text text-muted">Accepted formats: pdf, doc. Max file size 2Mb</span>
+		                                </div>
+									</div>
+								</div>
+							</fieldset>
+
+							<h6>Additional info</h6>
+							<fieldset>
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="mb-3">
+											<label class="form-label">Applicant resume:</label>
+											<input type="file" class="form-control">
+		                                    <span class="form-text text-muted">Accepted formats: pdf, doc. Max file size 2Mb</span>
+	                                    </div>
+									</div>
+
+									<div class="col-lg-6">
+										<div class="mb-3">
+											<label class="form-label">Where did you find us?</label>
+		                                    <select name="source" class="form-select">
+		                                        <option value="monster" selected>Monster.com</option> 
+		                                        <option value="linkedin">LinkedIn</option> 
+		                                        <option value="google">Google</option> 
+		                                        <option value="adwords">Google AdWords</option> 
+		                                        <option value="other">Other source</option>
+		                                    </select>
+	                                    </div>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="mb-3">
+											<label class="form-label">Availability:</label>
+											
+											<label class="form-check mb-1">
+												<input type="radio" class="form-check-input" name="availability" checked>
+												<span class="form-check-label">Immediately</span>
+											</label>
+
+											<label class="form-check mb-1">
+												<input type="radio" class="form-check-input" name="availability">
+												<span class="form-check-label">1 - 2 weeks</span>
+											</label>
+
+											<label class="form-check mb-1">
+												<input type="radio" class="form-check-input" name="availability">
+												<span class="form-check-label">3 - 4 weeks</span>
+											</label>
+
+											<label class="form-check">
+												<input type="radio" class="form-check-input" name="availability">
+												<span class="form-check-label">More than 1 month</span>
+											</label>
+										</div>
+									</div>
+
+									<div class="col-lg-6">
+										<div class="mb-3">
+											<label class="form-label">Additional information:</label>
+		                                    <textarea name="additional-info" rows="5" cols="5" placeholder="If you want to add any info, do it here." class="form-control"></textarea>
+	                                    </div>
+									</div>
+								</div>
+							</fieldset>
+						</form>
+		            </div>
+		            <!-- /wizard with validation -->
+				</div>
+				<!-- /content area -->
+
+
+				<!-- Footer -->
+				<div class="navbar navbar-sm navbar-footer border-top">
+					<div class="container-fluid">
+						<span>&copy; 2022 <a href="https://themeforest.net/item/limitless-responsive-web-application-kit/13080328">GurdwaraOS</a></span>
+
+						<ul class="nav">
+							<li class="nav-item">
+								<a href="https://kopyov.ticksy.com/" class="navbar-nav-link navbar-nav-link-icon rounded" target="_blank">
+									<div class="d-flex align-items-center mx-md-1">
+										<i class="ph-lifebuoy"></i>
+										<span class="d-none d-md-inline-block ms-2">Support</span>
+									</div>
+								</a>
+							</li>
+							<li class="nav-item ms-md-1">
+								<a href="https://demo.interface.club/limitless/demo/Documentation/index.html" class="navbar-nav-link navbar-nav-link-icon rounded" target="_blank">
+									<div class="d-flex align-items-center mx-md-1">
+										<i class="ph-file-text"></i>
+										<span class="d-none d-md-inline-block ms-2">Docs</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- /footer -->
+
+			</div>
+			<!-- /inner content -->
+
+		</div>
+		<!-- /main content -->
+
+	</div>
+	<!-- /page content -->
+
+
+	<!-- Notifications -->
+	<div class="offcanvas offcanvas-end" tabindex="-1" id="notifications">
+		<div class="offcanvas-header py-0">
+			<h5 class="offcanvas-title py-3">Activity</h5>
+			<button type="button" class="btn btn-light btn-sm btn-icon border-transparent rounded-pill" data-bs-dismiss="offcanvas">
+				<i class="ph-x"></i>
+			</button>
+		</div>
+
+		<div class="offcanvas-body p-0">
+			<div class="bg-light fw-medium py-2 px-3">New notifications</div>
+			<div class="p-3">
+				<div class="d-flex align-items-start mb-3">
+					<a href="#" class="status-indicator-container me-3">
+						<img src="../../../assets/images/demo/users/face1.jpg" class="w-40px h-40px rounded-pill" alt="">
+						<span class="status-indicator bg-success"></span>
+					</a>
+					<div class="flex-fill">
+						<a href="#" class="fw-semibold">James</a> has completed the task <a href="#">Submit documents</a> from <a href="#">Onboarding</a> list
+
+						<div class="bg-light rounded p-2 my-2">
+							<label class="form-check ms-1">
+								<input type="checkbox" class="form-check-input" checked disabled>
+								<del class="form-check-label">Submit personal documents</del>
+							</label>
+						</div>
+
+						<div class="fs-sm text-muted mt-1">2 hours ago</div>
+					</div>
+				</div>
+
+				<div class="d-flex align-items-start mb-3">
+					<a href="#" class="status-indicator-container me-3">
+						<img src="../../../assets/images/demo/users/face3.jpg" class="w-40px h-40px rounded-pill" alt="">
+						<span class="status-indicator bg-warning"></span>
+					</a>
+					<div class="flex-fill">
+						<a href="#" class="fw-semibold">Margo</a> has added 4 users to <span class="fw-semibold">Customer enablement</span> channel
+
+						<div class="d-flex my-2">
+							<a href="#" class="status-indicator-container me-1">
+								<img src="../../../assets/images/demo/users/face10.jpg" class="w-32px h-32px rounded-pill" alt="">
+								<span class="status-indicator bg-danger"></span>
+							</a>
+							<a href="#" class="status-indicator-container me-1">
+								<img src="../../../assets/images/demo/users/face11.jpg" class="w-32px h-32px rounded-pill" alt="">
+								<span class="status-indicator bg-success"></span>
+							</a>
+							<a href="#" class="status-indicator-container me-1">
+								<img src="../../../assets/images/demo/users/face12.jpg" class="w-32px h-32px rounded-pill" alt="">
+								<span class="status-indicator bg-success"></span>
+							</a>
+							<a href="#" class="status-indicator-container me-1">
+								<img src="../../../assets/images/demo/users/face13.jpg" class="w-32px h-32px rounded-pill" alt="">
+								<span class="status-indicator bg-success"></span>
+							</a>
+							<button type="button" class="btn btn-light btn-icon d-inline-flex align-items-center justify-content-center w-32px h-32px rounded-pill p-0">
+								<i class="ph-plus ph-sm"></i>
+							</button>
+						</div>
+
+						<div class="fs-sm text-muted mt-1">3 hours ago</div>
+					</div>
+				</div>
+
+				<div class="d-flex align-items-start">
+					<div class="me-3">
+						<div class="bg-warning bg-opacity-10 text-warning rounded-pill">
+							<i class="ph-warning p-2"></i>
+						</div>
+					</div>
+					<div class="flex-1">
+						Subscription <a href="#">#466573</a> from 10.12.2021 has been cancelled. Refund case <a href="#">#4492</a> created
+						<div class="fs-sm text-muted mt-1">4 hours ago</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bg-light fw-medium py-2 px-3">Older notifications</div>
+			<div class="p-3">
+				<div class="d-flex align-items-start mb-3">
+					<a href="#" class="status-indicator-container me-3">
+						<img src="../../../assets/images/demo/users/face25.jpg" class="w-40px h-40px rounded-pill" alt="">
+						<span class="status-indicator bg-success"></span>
+					</a>
+					<div class="flex-fill">
+						<a href="#" class="fw-semibold">Nick</a> requested your feedback and approval in support request <a href="#">#458</a>
+
+						<div class="my-2">
+							<a href="#" class="btn btn-success btn-sm me-1">
+								<i class="ph-checks ph-sm me-1"></i>
+								Approve
+							</a>
+							<a href="#" class="btn btn-light btn-sm">
+								Review
+							</a>
+						</div>
+
+						<div class="fs-sm text-muted mt-1">3 days ago</div>
+					</div>
+				</div>
+
+				<div class="d-flex align-items-start mb-3">
+					<a href="#" class="status-indicator-container me-3">
+						<img src="../../../assets/images/demo/users/face24.jpg" class="w-40px h-40px rounded-pill" alt="">
+						<span class="status-indicator bg-grey"></span>
+					</a>
+					<div class="flex-fill">
+						<a href="#" class="fw-semibold">Mike</a> added 1 new file(s) to <a href="#">Product management</a> project
+
+						<div class="bg-light rounded p-2 my-2">
+							<div class="d-flex align-items-center">
+								<div class="me-2">
+									<img src="../../../assets/images/icons/pdf.svg" width="34" height="34" alt="">
+								</div>
+								<div class="flex-fill">
+									new_contract.pdf
+									<div class="fs-sm text-muted">112KB</div>
+								</div>
+								<div class="ms-2">
+									<button type="button" class="btn btn-flat-dark text-body btn-icon btn-sm border-transparent rounded-pill">
+										<i class="ph-arrow-down"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="fs-sm text-muted mt-1">1 day ago</div>
+					</div>
+				</div>
+
+				<div class="d-flex align-items-start mb-3">
+					<div class="me-3">
+						<div class="bg-success bg-opacity-10 text-success rounded-pill">
+							<i class="ph-calendar-plus p-2"></i>
+						</div>
+					</div>
+					<div class="flex-fill">
+						All hands meeting will take place coming Thursday at 13:45.
+
+						<div class="my-2">
+							<a href="#" class="btn btn-primary btn-sm">
+								<i class="ph-calendar-plus ph-sm me-1"></i>
+								Add to calendar
+							</a>
+						</div>
+
+						<div class="fs-sm text-muted mt-1">2 days ago</div>
+					</div>
+				</div>
+
+				<div class="d-flex align-items-start mb-3">
+					<a href="#" class="status-indicator-container me-3">
+						<img src="../../../assets/images/demo/users/face4.jpg" class="w-40px h-40px rounded-pill" alt="">
+						<span class="status-indicator bg-danger"></span>
+					</a>
+					<div class="flex-fill">
+						<a href="#" class="fw-semibold">Christine</a> commented on your community <a href="#">post</a> from 10.12.2021
+
+						<div class="fs-sm text-muted mt-1">2 days ago</div>
+					</div>
+				</div>
+
+				<div class="d-flex align-items-start mb-3">
+					<div class="me-3">
+						<div class="bg-primary bg-opacity-10 text-primary rounded-pill">
+							<i class="ph-users-four p-2"></i>
+						</div>
+					</div>
+					<div class="flex-fill">
+						<span class="fw-semibold">HR department</span> requested you to complete internal survey by Friday
+
+						<div class="fs-sm text-muted mt-1">3 days ago</div>
+					</div>
+				</div>
+
+				<div class="text-center">
+					<div class="spinner-border" role="status">
+						<span class="visually-hidden">Loading...</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /notifications -->
+
+
+</body>
+</html>

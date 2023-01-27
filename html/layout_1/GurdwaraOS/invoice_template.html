@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+	<!-- Global stylesheets -->
+	<link href="../../../assets/fonts/inter/inter.css" rel="stylesheet" type="text/css">
+	<link href="../../../assets/icons/phosphor/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="../../../assets/icons/fontawesome/all.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/ltr/all.min.css" id="stylesheet" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script src="../../../assets/demo/demo_configurator.js"></script>
+	<script src="../../../assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script src="../../../assets/js/jquery/jquery.min.js"></script>
+	<script src="../../../assets/js/vendor/forms/wizards/steps.min.js"></script>
+	<script src="../../../assets/js/vendor/forms/validation/validate.min.js"></script>
+	<script src="../../../assets/js/vendor/ui/moment/moment.min.js"></script>
+	<script src="../../../assets/js/vendor/pickers/daterangepicker.js"></script>
+	<script src="../../../assets/js/vendor/pickers/datepicker.min.js"></script>
+
+	<script src="assets/js/app.js"></script>	
+	<script src="../../../assets/demo/pages/form_wizard.js"></script>
+	<script src="../../../assets/demo/pages/picker_date.js"></script>
+
+	<!-- /theme JS files --> 
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+	<!-- Main navbar -->
+	<div class="navbar navbar-dark navbar-expand-lg navbar-static border-bottom border-bottom-white border-opacity-10">
+		<div class="container-fluid">
+			<div class="d-flex d-lg-none me-2">
+				<button type="button" class="navbar-toggler sidebar-mobile-main-toggle rounded-pill">
+					<i class="ph-list"></i>
+				</button>
+			</div>
+
+			<div class="navbar-brand flex-1 flex-lg-0">
+				<a href="index.html" class="d-inline-flex align-items-center">
+					<img src="../../../assets/images/logo.svg" alt="">
+				</a>
+			</div>
+			<ul class="nav order-2 order-lg-1 me-lg-auto">
+				<li class="nav-item nav-item-dropdown-lg dropdown">
+						<button type="button" class="btn btn-outline-yellow btn-icon order-1 order-lg-2">
+							<span class="d-none d-lg-inline-block ms-2 me-1">Create Booking</span>
+						</button>
+				</li>
+			</ul>
+
+			
+			<ul class="nav flex-row">
+				<li class="nav-item d-lg-none">
+					<a href="#navbar_search" class="navbar-nav-link navbar-nav-link-icon rounded-pill" data-bs-toggle="collapse">
+						<i class="ph-magnifying-glass"></i>
+					</a>
+				</li>
+
+
+			</ul>
+
+			<div class="navbar-collapse flex-lg-1 order-2 order-lg-1 collapse" id="navbar_search">
+				<div class="navbar-search flex-fill position-relative mt-2 mt-lg-0 mx-lg-3">
+					<div class="form-control-feedback form-control-feedback-start flex-grow-1" data-color-theme="dark">
+						<input type="text" class="form-control bg-transparent rounded-pill" placeholder="Search" data-bs-toggle="dropdown">
+						<div class="form-control-feedback-icon">
+							<i class="ph-magnifying-glass"></i>
+						</div>
+						<div class="dropdown-menu w-100" data-color-theme="light">
+							<button type="button" class="dropdown-item">
+								<div class="text-center w-32px me-3">
+									<i class="ph-magnifying-glass"></i>
+								</div>
+								<span>Search <span class="fw-bold">"in"</span> everywhere</span>
+							</button>
+
+							<div class="dropdown-divider"></div>
+
+							<div class="dropdown-menu-scrollable-lg">
+								<div class="dropdown-header">
+									Contacts
+									<a href="#" class="float-end">
+										See all
+										<i class="ph-arrow-circle-right ms-1"></i>
+									</a>
+								</div>
+
+								<div class="dropdown-item cursor-pointer">
+									<div class="me-3">
+										<img src="../../../assets/images/demo/users/face3.jpg" class="w-32px h-32px rounded-pill" alt="">
+									</div>
+
+									<div class="d-flex flex-column flex-grow-1">
+										<div class="fw-semibold">Christ<mark>in</mark>e Johnson</div>
+										<span class="fs-sm text-muted">c.johnson@awesomecorp.com</span>
+									</div>
+
+									<div class="d-inline-flex">
+										<a href="#" class="text-body ms-2">
+											<i class="ph-user-circle"></i>
+										</a>
+									</div>
+								</div>
+
+								<div class="dropdown-item cursor-pointer">
+									<div class="me-3">
+										<img src="../../../assets/images/demo/users/face24.jpg" class="w-32px h-32px rounded-pill" alt="">
+									</div>
+
+									<div class="d-flex flex-column flex-grow-1">
+										<div class="fw-semibold">Cl<mark>in</mark>ton Sparks</div>
+										<span class="fs-sm text-muted">c.sparks@awesomecorp.com</span>
+									</div>
+
+									<div class="d-inline-flex">
+										<a href="#" class="text-body ms-2">
+											<i class="ph-user-circle"></i>
+										</a>
+									</div>
+								</div>
+
+								<div class="dropdown-divider"></div>
+
+								<div class="dropdown-header">
+									Clients
+									<a href="#" class="float-end">
+										See all
+										<i class="ph-arrow-circle-right ms-1"></i>
+									</a>
+								</div>
+
+								<div class="dropdown-item cursor-pointer">
+									<div class="me-3">
+										<img src="../../../assets/images/brands/adobe.svg" class="w-32px h-32px rounded-pill" alt="">
+									</div>
+
+									<div class="d-flex flex-column flex-grow-1">
+										<div class="fw-semibold">Adobe <mark>In</mark>c.</div>
+										<span class="fs-sm text-muted">Enterprise license</span>
+									</div>
+
+									<div class="d-inline-flex">
+										<a href="#" class="text-body ms-2">
+											<i class="ph-briefcase"></i>
+										</a>
+									</div>
+								</div>
+
+								<div class="dropdown-item cursor-pointer">
+									<div class="me-3">
+										<img src="../../../assets/images/brands/holiday-inn.svg" class="w-32px h-32px rounded-pill" alt="">
+									</div>
+
+									<div class="d-flex flex-column flex-grow-1">
+										<div class="fw-semibold">Holiday-<mark>In</mark>n</div>
+										<span class="fs-sm text-muted">On-premise license</span>
+									</div>
+
+									<div class="d-inline-flex">
+										<a href="#" class="text-body ms-2">
+											<i class="ph-briefcase"></i>
+										</a>
+									</div>
+								</div>
+
+								<div class="dropdown-item cursor-pointer">
+									<div class="me-3">
+										<img src="../../../assets/images/brands/ing.svg" class="w-32px h-32px rounded-pill" alt="">
+									</div>
+
+									<div class="d-flex flex-column flex-grow-1">
+										<div class="fw-semibold"><mark>IN</mark>G Group</div>
+										<span class="fs-sm text-muted">Perpetual license</span>
+									</div>
+
+									<div class="d-inline-flex">
+										<a href="#" class="text-body ms-2">
+											<i class="ph-briefcase"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<a href="#" class="navbar-nav-link align-items-center justify-content-center w-40px h-32px rounded-pill position-absolute end-0 top-50 translate-middle-y p-0 me-1" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+						<i class="ph-faders-horizontal"></i>
+					</a>
+
+					<div class="dropdown-menu w-100 p-3">
+						<div class="d-flex align-items-center mb-3">
+							<h6 class="mb-0">Search options</h6>
+							<a href="#" class="text-body rounded-pill ms-auto">
+								<i class="ph-clock-counter-clockwise"></i>
+							</a>
+						</div>
+
+						<div class="mb-3">
+							<label class="d-block form-label">Category</label>
+							<label class="form-check form-check-inline">
+								<input type="checkbox" class="form-check-input" checked>
+								<span class="form-check-label">Invoices</span>
+							</label>
+							<label class="form-check form-check-inline">
+								<input type="checkbox" class="form-check-input">
+								<span class="form-check-label">Files</span>
+							</label>
+							<label class="form-check form-check-inline">
+								<input type="checkbox" class="form-check-input">
+								<span class="form-check-label">Users</span>
+							</label>
+						</div>
+
+						<div class="mb-3">
+							<label class="form-label">Addition</label>
+							<div class="input-group">
+								<select class="form-select w-auto flex-grow-0">
+									<option value="1" selected>has</option>
+									<option value="2">has not</option>
+								</select>
+								<input type="text" class="form-control" placeholder="Enter the word(s)">
+							</div>
+						</div>
+
+						<div class="mb-3">
+							<label class="form-label">Status</label>
+							<div class="input-group">
+								<select class="form-select w-auto flex-grow-0">
+									<option value="1" selected>is</option>
+									<option value="2">is not</option>
+								</select>
+								<select class="form-select">
+									<option value="1" selected>Active</option>
+									<option value="2">Inactive</option>
+									<option value="3">New</option>
+									<option value="4">Expired</option>
+									<option value="5">Pending</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="d-flex">
+							<button type="button" class="btn btn-light">Reset</button>
+
+							<div class="ms-auto">
+								<button type="button" class="btn btn-light">Cancel</button>
+								<button type="button" class="btn btn-primary ms-2">Apply</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<ul class="nav flex-row justify-content-end order-1 order-lg-2">
+				<li class="nav-item ms-lg-2">
+					<a href="#" class="navbar-nav-link navbar-nav-link-icon rounded-pill" data-bs-toggle="offcanvas" data-bs-target="#notifications">
+						<i class="ph-bell"></i>
+						<span class="badge bg-yellow text-black position-absolute top-0 end-0 translate-middle-top zindex-1 rounded-pill mt-1 me-1">2</span>
+					</a>
+				</li>
+
+				
+				<li class="nav-item nav-item-dropdown-lg dropdown ms-lg-2">
+					<a href="#" class="navbar-nav-link align-items-center rounded-pill p-1" data-bs-toggle="dropdown">
+						<div class="status-indicator-container">
+							<img src="../../../assets/images/demo/users/face11.jpg" class="w-32px h-32px rounded-pill" alt="">
+							<span class="status-indicator bg-success"></span>
+						</div>
+						<span class="d-none d-lg-inline-block mx-lg-2">Balwinder Singh</span>
+					</a>
+
+					<div class="dropdown-menu dropdown-menu-end">
+						<a href="#" class="dropdown-item">
+							<i class="ph-user-circle me-2"></i>
+							My profile
+						</a>
+						
+						<div class="dropdown-divider"></div>
+						<a href="#" class="dropdown-item">
+							<i class="ph-gear me-2"></i>
+							Account settings
+						</a>
+						<a href="#" class="dropdown-item">
+							<i class="ph-sign-out me-2"></i>
+							Logout
+						</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- /main navbar -->
+
+
+	<!-- Page content -->
+	<div class="page-content">
+
+		<!-- Main sidebar -->
+		<div class="sidebar sidebar-dark sidebar-main sidebar-expand-lg">
+
+			<!-- Sidebar content -->
+			<div class="sidebar-content">
+
+				<!-- Main navigation -->
+				<div class="sidebar-section">
+					<ul class="nav nav-sidebar" data-nav-type="accordion">
+
+						<li class="nav-item">
+							<a href="index.html" class="nav-link">
+								<i class=" "></i>
+								<span>
+									Dashboard
+								</span>
+							</a>
+						</li>	
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link">
+								<i class="ph-calendar-check"></i>
+								<span>Calendar</span>
+							</a>
+						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link">
+								<i class="ph-users"></i>
+								<span>Membership</span>
+							</a>
+						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link active">
+								<i class="ph-calendar-plus"></i>
+								<span>Bookings</span>
+							</a>
+						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link">
+								<i class="ph-sun"></i>
+								<span>Hukamnama</span>
+							</a>
+						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link">
+								<i class="ph-phone"></i>
+								<span>Contacts</span>
+							</a>
+						</li>
+						
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link">
+								<i class="ph-chart-line"></i>
+								<span>Statistics</span>
+							</a>
+						</li>
+						<!-- /page kits -->
+
+					</ul>
+				</div>
+				<!-- /main navigation -->
+
+			</div>
+			<!-- /sidebar content -->
+			
+		</div>
+		<!-- /main sidebar -->
+
+
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+			<!-- Inner content -->
+			<div class="content-inner">
+
+				<!-- Page header -->
+				<div class="page-header page-header-light shadow">
+					<div class="page-header-content d-lg-flex">
+						<div class="d-flex">
+							<h4 class="page-title mb-0">
+								Home - <span class="fw-normal">Bookings</span>
+							</h4>
+
+							<a href="#page_header" class="btn btn-light align-self-center collapsed d-lg-none border-transparent rounded-pill p-0 ms-auto" data-bs-toggle="collapse">
+								<i class="ph-caret-down collapsible-indicator ph-sm m-1"></i>
+							</a>
+						</div>
+
+						<div class="collapse d-lg-block my-lg-auto ms-lg-auto" id="page_header">
+							<div class="d-sm-flex align-items-center mb-3 mb-lg-0 ms-lg-3">
+								<div class="dropdown w-100 w-sm-auto">
+									<a href="#" class="d-flex align-items-center text-body lh-1  py-sm-2" data-bs-toggle="dropdown" data-bs-display="static">
+										<img src="../../../assets/images/brands/tesla.svg" class="w-32px h-32px me-2" alt="">
+										<div class="me-auto me-lg-1">
+											<div class="fs-sm text-muted mb-1">Customer</div>
+											<div class="fw-semibold">Ramgarhia Sikh Gurdwara Slough</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="page-header-content d-lg-flex border-top">
+						<div class="d-flex">
+							<div class="breadcrumb py-2">
+								<a href="index.html" class="breadcrumb-item"><i class="ph-house"></i></a>
+								<a href="#" class="breadcrumb-item">Home</a>
+								<span class="breadcrumb-item active">Booking</span>
+							</div>
+
+							<a href="#breadcrumb_elements" class="btn btn-light align-self-center collapsed d-lg-none border-transparent rounded-pill p-0 ms-auto" data-bs-toggle="collapse">
+								<i class="ph-caret-down collapsible-indicator ph-sm m-1"></i>
+							</a>
+						</div>
+
+						<div class="collapse d-lg-block ms-lg-auto" id="breadcrumb_elements">
+							<div class="d-lg-flex mb-2 mb-lg-0">
+								<a href="#" class="d-flex align-items-center text-body py-2">
+									<i class="ph-lifebuoy me-2"></i>
+									Support
+								</a>
+
+								<div class="dropdown ms-lg-3">
+									<a href="#" class="d-flex align-items-center text-body dropdown-toggle py-2" data-bs-toggle="dropdown">
+										<i class="ph-gear me-2"></i>
+										<span class="flex-1">Settings</span>
+									</a>
+
+									<div class="dropdown-menu dropdown-menu-end w-100 w-lg-auto">
+										<a href="#" class="dropdown-item">
+											<i class="ph-shield-warning me-2"></i>
+											Account security
+										</a>
+										<a href="#" class="dropdown-item">
+											<i class="ph-chart-bar me-2"></i>
+											Analytics
+										</a>
+										<a href="#" class="dropdown-item">
+											<i class="ph-lock-key me-2"></i>
+											Privacy
+										</a>
+										<div class="dropdown-divider"></div>
+										<a href="#" class="dropdown-item">
+											<i class="ph-gear me-2"></i>
+											All settings
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /page header -->
+
+
+
+				<!-- Content area -->
+				<div class="content">
+
+					<!-- Invoice template -->
+					<div class="card">
+						<div class="card-header d-flex align-items-center py-0">
+							<h5 class="py-3 mb-0">Ramgarhia Sikh Gurdwara Slough</h5>
+							<div class="d-inline-flex ms-auto">
+								<button type="button" class="btn btn-light"><i class="ph-file-arrow-down me-2"></i> Save</button>
+								<button type="button" class="btn btn-light ms-3"><i class="ph-printer me-2"></i> Print</button>
+		                	</div>
+						</div>
+
+						<div class="card-body">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="mb-4">
+										<div class="d-inline-flex align-items-center mt-2 mb-3">
+											<img src="../../../assets/images/logo_icon.svg" class="h-24px" alt="">
+											<h4 class="d-none d-sm-inline-block text-body mb-0 ms-2">Ramgarhia Sikh Gurdwara Slough</h4>
+										</div>
+
+			 							<ul class="list list-unstyled mt-2 mb-0">
+											<li>Ramgarhia Sikh Gurdwara Slough</li>
+											<li>Woodland Avenue, SL1 3BU, England</li>
+											<li>01753 552525</li>
+										</ul>
+									</div>
+								</div>
+
+								<div class="col-sm-6">
+									<div class="text-sm-end mb-4">
+										<h4 class="text-primary mb-2 mt-lg-2">Invoice #49029</h4>
+										<ul class="list list-unstyled mb-0">
+											<li>Date: <span class="fw-semibold">January 12, 2015</span></li>
+											<li>Due date: <span class="fw-semibold">May 12, 2015</span></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="d-lg-flex flex-lg-wrap">
+								<div class="mb-4 mb-lg-2">
+									<span class="text-muted">Invoice To:</span>
+		 							<ul class="list list-unstyled mb-0">
+										<li><h5 class="my-2">Rebecca Manes</h5></li>
+										<li><span class="fw-semibold">Normand axis LTD</span></li>
+										<li>3 Goodman Street</li>
+										<li>London E1 8BF</li>
+										<li>United Kingdom</li>
+										<li>888-555-2311</li>
+										<li><a href="#">rebecca@normandaxis.ltd</a></li>
+									</ul>
+								</div>
+
+								<div class="mb-2 ms-auto">
+									<span class="text-muted">Payment Details:</span>
+									<div class="d-flex flex-wrap wmin-lg-400">
+										<ul class="list list-unstyled mb-0">
+											<li><h5 class="my-2">Total Due:</h5></li>
+											<li>Bank name:</li>
+											<li>Country:</li>
+											<li>City:</li>
+											<li>Address:</li>
+											<li>IBAN:</li>
+											<li>SWIFT code:</li>
+										</ul>
+
+										<ul class="list list-unstyled text-end mb-0 ms-auto">
+											<li><h5 class="my-2">$8,750</h5></li>
+											<li><span class="fw-semibold">Natwest</span></li>
+											<li>United Kingdom</li>
+											<li>London E1 8BF</li>
+											<li>3 Goodman Street</li>
+											<li><span class="fw-semibold">KFH37784028476740</span></li>
+											<li><span class="fw-semibold">BPT4E</span></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="table-responsive">
+						    <table class="table table-lg">
+						        <thead>
+						            <tr>
+						                <th>Description</th>
+						                <th>Rate</th>
+						                <th>Guests</th>
+						                <th>Total</th>
+						            </tr>
+						        </thead>
+						        <tbody>
+						            <tr>
+						                <td>
+						                	<div class="fw-bold">Anand Karaj in Guru Nanak Darbar</div>
+						                	<span class="text-muted">From 9AM to 1:30PM</span>
+					                	</td>
+						                <td>N/A</td>
+						                <td>50</td>
+						                <td><span class="fw-semibold">£1250</span></td>
+						            </tr>
+						            <tr>
+						                <td>
+						                	<div class="fw-bold">Morning Tea & Paronteh</div>
+						                	<span class="text-muted">Gurdwara to provide langar facility for 50 guests</span>
+					                	</td>
+						                <td>£50</td>
+						                <td>50</td>
+						                <td><span class="fw-semibold">£250</span></td>
+						            </tr>
+						            <tr>
+						                <td>
+						                	<div class="fw-bold">Basic Menu Langar</div>
+						                	<span class="text-muted">Gurdwara to provide langar facility for 50 guests</span>
+					                	</td>
+										<td>£50</td>
+						                <td>50</td>
+						                <td><span class="fw-semibold">£150</span></td>
+						            </tr>
+						        </tbody>
+						    </table>
+						</div>
+
+						<div class="card-body border-top">
+							<div class="d-lg-flex flex-lg-wrap">
+								<div class="pt-2 mb-3">
+									<h6 class="mb-3">Authorized person</h6>
+									<div class="mb-3">
+										<img src="../../../assets/images/signature.png" width="150" alt="">
+									</div>
+
+									<ul class="list-unstyled text-muted">
+										<li>Harvinder Bhoda</li>
+										<li>Ramgarhia Sikh Gurdwara Slough</li>
+										<li>Committee Member</li>
+									</ul>
+								</div>
+
+								<div class="pt-2 mb-3 wmin-lg-400 ms-auto">
+									<h6 class="mb-3">Total due</h6>
+									<div class="table-responsive">
+										<table class="table">
+											<tbody>
+												<tr>
+													<th>Subtotal:</th>
+													<td class="text-end">$7,000</td>
+												</tr>
+												<tr>
+													<th>Tax: <span class="fw-normal">(25%)</span></th>
+													<td class="text-end">$1,750</td>
+												</tr>
+												<tr>
+													<th>Total:</th>
+													<td class="text-end text-primary"><h5 class="fw-semibold">$8,750</h5></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+
+									<div class="text-end mt-3">
+										<button type="button" class="btn btn-primary">
+											Send invoice
+											<i class="ph-paper-plane-tilt ms-2"></i>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="card-footer">
+							<span class="text-muted">Thank you for booking your function at Ramgarhia Sikh Gurdwara Slough. This invoice can be paid via Card, Bank transfer, Cash or Cheque. Payment is due within 30 days from the date of delivery. Late payment is possible, but with with a fee of 10% per month. Company registered in England and Wales #6893003, registered office: 3 Goodman Street, London E1 8BF, United Kingdom. Phone number: 888-555-2311</span>
+						</div>
+					</div>
+					<!-- /invoice template -->
+
+				</div>
+				<!-- /content area -->
+
+
+				<!-- Footer -->
+				<div class="navbar navbar-sm navbar-footer border-top">
+					<div class="container-fluid">
+						<span>&copy; 2022 <a href="https://themeforest.net/item/limitless-responsive-web-application-kit/13080328">Limitless Web App Kit</a></span>
+
+						<ul class="nav">
+							<li class="nav-item">
+								<a href="https://kopyov.ticksy.com/" class="navbar-nav-link navbar-nav-link-icon rounded" target="_blank">
+									<div class="d-flex align-items-center mx-md-1">
+										<i class="ph-lifebuoy"></i>
+										<span class="d-none d-md-inline-block ms-2">Support</span>
+									</div>
+								</a>
+							</li>
+							<li class="nav-item ms-md-1">
+								<a href="https://demo.interface.club/limitless/demo/Documentation/index.html" class="navbar-nav-link navbar-nav-link-icon rounded" target="_blank">
+									<div class="d-flex align-items-center mx-md-1">
+										<i class="ph-file-text"></i>
+										<span class="d-none d-md-inline-block ms-2">Docs</span>
+									</div>
+								</a>
+							</li>
+							<li class="nav-item ms-md-1">
+								<a href="https://themeforest.net/item/limitless-responsive-web-application-kit/13080328?ref=kopyov" class="navbar-nav-link navbar-nav-link-icon text-primary bg-primary bg-opacity-10 fw-semibold rounded" target="_blank">
+									<div class="d-flex align-items-center mx-md-1">
+										<i class="ph-shopping-cart"></i>
+										<span class="d-none d-md-inline-block ms-2">Purchase</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- /footer -->
+
+			</div>
+			<!-- /inner content -->
+
+		</div>
+		<!-- /main content -->
+
+	</div>
+	<!-- /page content -->
+
+
+
+
+</body>
+</html>
